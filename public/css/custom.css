@@ -1,0 +1,87 @@
+body {
+    overflow-y: auto;
+    display: flex;
+    align-items: center;
+        justify-content: center 
+}
+.players-cont {
+    display: none;
+}
+.hidd {
+    display: none;
+}
+#gameBoard {
+    width: 600px;    
+}
+.text-center {
+    height: 50px;
+    text-align: center;  
+}
+.container {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}#cGame {
+    display: none
+}
+#cGame.active {
+    display: block
+}
+.col-form-label {
+    line-height: 2.3;
+}
+
+.chat-window {
+    height: 400px;
+    margin-bottom: 15px;
+    overflow: scroll;
+    border-radius: 4px;
+    border: 1px #ccc solid;
+}
+
+.chat-line {
+    padding: 10px 20px;
+    border-bottom: 1px #ccc solid;
+}
+
+.chat-line:nth-child(even) {
+    background-color: #FAFAFA;
+}
+
+.chat-line-time,
+.chat-line-nick,
+.chat-line-status {
+    display: inline-block;
+}
+
+.chat-line-time,
+.chat-line-status {
+    opacity: 0.6;
+
+    font-style: italic;
+}
+
+.chat-line-nick {
+    opacity: 0.6;
+
+    font-weight: bold;
+}
+#directChat {
+    display: none;
+}
+#directChat.active {
+    display: block;
+}
+
+textarea {
+    resize: none;
+}
+
+.pull-xs-right {
+    float: right;
+}
+
+
+.invalid {
+    border-color: #FF0061;
+}

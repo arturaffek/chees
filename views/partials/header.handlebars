@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+<title>Chess</title>
+    {{#if styles }}
+    {{#each styles}}
+    <link rel="stylesheet" href="/css/{{ this }}">
+    {{/each}}
+    {{/if}}
+		<link rel="stylesheet" href="lib/chessboard-0.3.0.min.css">
+</head>
+<body>
