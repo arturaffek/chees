@@ -112,7 +112,6 @@ function updateStatus(){
 
 
 $(function(){
-	console.log('start');
     $(document).on('click', '.setOrientation', function(){
         socket.emit('setOrientation', {
             room: $(this).data('room'),
